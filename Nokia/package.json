@@ -1,0 +1,16 @@
+{
+  "name": "ismet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass assets/scss/main.scss -o assets/css",
+    "css:watch": "npm run css && node-sass assets/scss/main.scss -wo assets/css"
+  },
+  "author": "Ismet",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
